@@ -35,6 +35,7 @@ bool		db0chrono(void)
 	 clock.hour, (clock.hour > 0 ? 's' : ' '),
 	 clock.minut, (clock.minut > 0 ? 's' : ' '),
 	 clock.second, (clock.second > 0 ? 's' : ' '));
+  fflush(stdout);
   while (c.time.time < TOTAL_TIME)
     {
       time_left = TOTAL_TIME - c.time.time;
@@ -43,6 +44,7 @@ bool		db0chrono(void)
 	     clock.hour, (clock.hour > 0 ? 's' : ' '),
 	     clock.minut, (clock.minut > 0 ? 's' : ' '),
 	     clock.second, (clock.second > 0 ? 's' : ' '));
+      fflush(stdout);
       sleep(1);
       ++(c.time.time);
     }
