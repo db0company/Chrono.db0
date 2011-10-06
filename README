@@ -1,0 +1,20 @@
+DB0CHRONO              db0 company Manual for "GitHub"              DB0CHRONO
+
+NAME
+       db0chrono - A 12 hour chrono
+
+DESCRIPTION
+
+	db0chrono is a simple little clock. Launch it in a terminal
+	and time start to count. Press Ctrl C to stop it.
+	When you'll launch it again, previous time has been saved.
+
+SOME IDEAS...
+        - Choose time (not only 12 hours)
+	- Time elapses without limit
+	- Option to reset timer
+
+SEE ALSO
+	crontab(1)
+
+db0 company                       2011-10-06                        DB0CHRONO
